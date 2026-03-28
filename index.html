@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sawyer Price — Official Music</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Karla:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<style>
+:root {
+  --dust:     #D4C4A8;
+  --earth:    #8A6840;
+  --denim:    #4A6080;
+  --denim-lt: #6A8AA8;
+  --bark:     #3A2818;
+  --field:    #C8A870;
+  --bg:       #F2EDE4;
+  --bg2:      #EAE4D8;
+  --ink:      #2A1E10;
+  --muted:    #8A7860;
+  --font-display: 'Abril Fatface', serif;
+  --font-body:    'Lora', serif;
+  --font-ui:      'Karla', sans-serif;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.8;
+  overflow-x: hidden;
+}
+
+/* ── PAPER GRAIN ───────────────────────────────────────────── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px;
+}
+
+/* ── NAV ───────────────────────────────────────────────────── */
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1rem 2.5rem;
+  background: rgba(242,237,228,0);
+  transition: background 0.35s, border-color 0.35s;
+}
+nav.scrolled {
+  background: rgba(242,237,228,0.97);
+  border-bottom: 1px solid rgba(58,40,24,0.1);
+  backdrop-filter: blur(8px);
+}
+.nav-name {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--bark);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+.nav-links { display: flex; gap: 2rem; list-style: none; }
+.nav-links a {
+  font-family: var(--font-ui);
+  font-size: 0.62rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.2s;
+}
+.nav-links a:hover { color: var(--ink); }
+
+/* ── HERO ──────────────────────────────────────────────────── */
+.hero {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 6% 5rem;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse 120% 60% at 50% 100%, rgba(139,104,64,0.15) 0%, transparent 60%),
+    linear-gradient(180deg, #EAE0CC 0%, #F2EDE4 50%, #EAE4D8 100%);
+}
+
+/* Horizon line */
+.hero::before {
+  content: '';
+  position: absolute;
+  left: 0; right: 0;
+  bottom: 35%;
+  height: 1px;
+  background: linear-gradient(to right, transparent 0%, rgba(138,104,64,0.2) 20%, rgba(138,104,64,0.2) 80%, transparent 100%);
+}
+
+/* Sun */
+.hero-sun {
+  position: absolute;
+  right: 12%;
+  bottom: 32%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(220,175,100,0.5) 0%, rgba(210,155,70,0.2) 50%, transparent 70%);
+  box-shadow: 0 0 80px 20px rgba(220,175,100,0.15);
+}
+
+/* Rolling hills */
+.hero-hills {
+  position: absolute;
+  left: 0; right: 0;
+  bottom: 0;
+  height: 38%;
+  pointer-events: none;
+}
+.hill {
+  position: absolute;
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.hill-1 { left: -5%; width: 45%; height: 85%; background: rgba(138,104,64,0.08); }
+.hill-2 { left: 25%; width: 55%; height: 70%; background: rgba(138,104,64,0.06); }
+.hill-3 { right: -5%; width: 40%; height: 90%; background: rgba(138,104,64,0.07); }
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 580px;
+  animation: fadein 1.1s 0.2s both;
+}
+.hero-eyebrow {
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--earth);
+  margin-bottom: 0.8rem;
+  font-weight: 300;
+}
+.hero-name {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 7vw, 6rem);
+  color: var(--bark);
+  line-height: 1;
+  margin-bottom: 1.2rem;
+}
+.hero-tagline {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.85;
+  margin-bottom: 2.2rem;
+  max-width: 420px;
+}
+.hero-cta-row { display: flex; gap: 0.75rem; }
+.hero-cta {
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 0.55rem 1.4rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  font-weight: 400;
+}
+.hero-cta.primary { background: var(--bark); color: var(--dust); }
+.hero-cta.primary:hover { background: var(--earth); }
+.hero-cta.secondary { border: 1px solid rgba(58,40,24,0.25); color: var(--bark); }
+.hero-cta.secondary:hover { border-color: var(--bark); background: rgba(58,40,24,0.04); }
+
+@keyframes fadein { from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);} }
+
+/* ── BIO ───────────────────────────────────────────────────── */
+#bio {
+  padding: 5.5rem 0;
+  background: white;
+  border-top: 1px solid rgba(58,40,24,0.08);
+}
+.bio-inner { max-width: 680px; margin: 0 auto; padding: 0 2rem; }
+.section-label {
+  font-family: var(--font-ui);
+  font-size: 0.58rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--earth);
+  margin-bottom: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 300;
+}
+.section-label::after { content: ''; flex: 1; height: 1px; background: rgba(58,40,24,0.1); }
+.bio-text {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.95;
+}
+.bio-text strong { color: var(--ink); font-style: normal; }
+
+/* ── ALBUM SECTION ─────────────────────────────────────────── */
+.album-section { padding: 5rem 0; border-top: 1px solid rgba(58,40,24,0.07); background: var(--bg2); }
+.album-wrap { max-width: 920px; margin: 0 auto; padding: 0 2rem; }
+.album-layout { display: grid; grid-template-columns: 230px 1fr; gap: 4rem; align-items: start; }
+.album-art-wrap { position: sticky; top: 90px; }
+
+.album-art-placeholder {
+  width: 100%; aspect-ratio: 1;
+  background: linear-gradient(145deg, #DDD0B8 0%, #C8B898 100%);
+  border: 1px solid rgba(58,40,24,0.12);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 0.6rem;
+  position: relative;
+  overflow: hidden;
+}
+/* Worn corner fold */
+.album-art-placeholder::after {
+  content: '';
+  position: absolute;
+  bottom: 0; right: 0;
+  width: 20px; height: 20px;
+  background: linear-gradient(135deg, transparent 50%, rgba(58,40,24,0.1) 50%);
+}
+.ph-icon { font-size: 3rem; opacity: 0.18; }
+.ph-label { font-family: var(--font-ui); font-size: 0.52rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); opacity: 0.7; }
+
+.album-tag { font-family: var(--font-ui); font-size: 0.57rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--denim); margin-bottom: 0.35rem; font-weight: 300; }
+.album-title-text { font-family: var(--font-display); font-size: 2.8rem; color: var(--bark); line-height: 1; margin-bottom: 0.2rem; }
+.album-artist { font-family: var(--font-ui); font-size: 0.68rem; letter-spacing: 0.15em; color: var(--muted); margin-bottom: 1rem; font-weight: 300; }
+.album-desc { font-family: var(--font-body); font-size: 1rem; color: var(--muted); font-style: italic; line-height: 1.85; margin-bottom: 1.3rem; max-width: 440px; }
+
+.stream-row { display: flex; gap: 0.55rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.stream-btn {
+  font-family: var(--font-ui); font-size: 0.56rem; letter-spacing: 0.15em; text-transform: uppercase;
+  padding: 0.36rem 0.9rem; border: 1px solid rgba(58,40,24,0.18); color: var(--muted);
+  text-decoration: none; transition: all 0.2s; background: none; cursor: pointer; font-weight: 300;
+}
+.stream-btn:hover { border-color: var(--denim); color: var(--denim); }
+
+/* TRACKLIST */
+.tracklist { border-top: 1px solid rgba(58,40,24,0.1); padding-top: 0.5rem; margin-top: 1.5rem; }
+.track-row {
+  display: grid; grid-template-columns: 30px 1fr 34px;
+  align-items: center; gap: 0.75rem;
+  padding: 0.7rem 0.4rem;
+  border-bottom: 1px solid rgba(58,40,24,0.07);
+  border-radius: 2px;
+  transition: background 0.15s;
+}
+.track-row:hover { background: rgba(74,96,128,0.04); }
+.track-num { font-family: var(--font-ui); font-size: 0.6rem; color: rgba(138,104,64,0.45); text-align: right; font-weight: 300; }
+.track-title { font-family: var(--font-body); font-size: 1rem; color: var(--bark); }
+.track-play-btn {
+  width: 32px; height: 32px; border-radius: 50%;
+  border: 1px solid rgba(74,96,128,0.3); background: none; color: var(--denim);
+  cursor: pointer; font-size: 0.55rem; display: flex; align-items: center; justify-content: center;
+  padding-left: 2px; transition: all 0.18s;
+}
+.track-play-btn:hover { background: rgba(74,96,128,0.1); border-color: var(--denim); }
+.track-play-btn.playing { background: var(--denim); color: white; border-color: var(--denim); }
+
+/* ── PLAYER ────────────────────────────────────────────────── */
+#player {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+  background: rgba(242,237,228,0.98);
+  border-top: 1px solid rgba(58,40,24,0.12);
+  backdrop-filter: blur(12px);
+  display: none;
+  grid-template-columns: 220px 1fr 180px;
+  align-items: center; gap: 1.5rem; padding: 0.75rem 2rem;
+  transform: translateY(100%);
+  transition: transform 0.3s cubic-bezier(0.16,1,0.3,1);
+  box-shadow: 0 -4px 20px rgba(58,40,24,0.06);
+}
+#player.visible { display: grid; transform: translateY(0); }
+.p-info { display: flex; flex-direction: column; gap: 0.1rem; min-width: 0; }
+.p-title { font-family: var(--font-body); font-size: 0.95rem; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-style: italic; }
+.p-album { font-family: var(--font-ui); font-size: 0.52rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--earth); font-weight: 300; }
+.p-controls { display: flex; flex-direction: column; align-items: center; gap: 0.35rem; }
+.p-btns { display: flex; align-items: center; gap: 0.9rem; }
+.p-btn { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 0.7rem; transition: color 0.15s; }
+.p-btn:hover { color: var(--ink); }
+.p-play { width: 36px; height: 36px; border-radius: 50%; background: var(--bark); border: none; color: var(--dust); cursor: pointer; font-size: 0.85rem; display: flex; align-items: center; justify-content: center; transition: transform 0.15s, background 0.15s; padding-left: 2px; }
+.p-play:hover { transform: scale(1.1); background: var(--earth); }
+.p-prog { display: flex; align-items: center; gap: 0.5rem; width: 100%; }
+.p-time { font-family: var(--font-ui); font-size: 0.52rem; color: var(--muted); min-width: 26px; text-align: center; font-weight: 300; }
+.p-bar { flex: 1; height: 1px; background: rgba(58,40,24,0.15); border-radius: 1px; cursor: pointer; }
+.p-fill { height: 100%; background: linear-gradient(to right, var(--denim), var(--earth)); border-radius: 1px; width: 0%; pointer-events: none; }
+.p-right { display: flex; align-items: center; gap: 0.75rem; justify-content: flex-end; }
+.p-vol { -webkit-appearance: none; width: 75px; height: 1px; background: rgba(58,40,24,0.15); outline: none; cursor: pointer; }
+.p-vol::-webkit-slider-thumb { -webkit-appearance: none; width: 10px; height: 10px; border-radius: 50%; background: var(--earth); cursor: pointer; }
+.p-close { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 0.7rem; transition: color 0.2s; opacity: 0.5; }
+.p-close:hover { opacity: 1; color: var(--ink); }
+
+/* ── FOOTER ────────────────────────────────────────────────── */
+footer { background: var(--bark); padding: 3.5rem 2rem; text-align: center; margin-bottom: 60px; }
+.foot-name { font-family: var(--font-display); font-size: 1.3rem; color: var(--dust); margin-bottom: 0.3rem; }
+.foot-label { font-family: var(--font-ui); font-size: 0.54rem; letter-spacing: 0.4em; text-transform: uppercase; color: rgba(212,196,168,0.35); margin-bottom: 1.3rem; font-weight: 300; }
+.foot-links { display: flex; gap: 1.5rem; justify-content: center; }
+.foot-links a { font-family: var(--font-ui); font-size: 0.54rem; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(212,196,168,0.35); text-decoration: none; transition: color 0.2s; font-weight: 300; }
+.foot-links a:hover { color: var(--dust); }
+
+@media(max-width:768px) {
+  .album-layout { grid-template-columns: 1fr; }
+  .album-art-wrap { position: static; max-width: 200px; }
+  #player { grid-template-columns: 1fr; gap: 0.4rem; padding: 0.6rem 1rem; }
+  .p-right { justify-content: center; }
+  .nav-links { gap: 1.2rem; }
+  .hero { padding-left: 5%; padding-bottom: 4rem; }
+}
+</style>
+</head>
+<body>
+
+<nav id="topnav">
+  <a href="#" class="nav-name">Sawyer Price</a>
+  <ul class="nav-links">
+    <li><a href="#bio">About</a></li>
+    <li><a href="#unrushed">Unrushed</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-sun"></div>
+  <div class="hero-hills">
+    <div class="hill hill-1"></div>
+    <div class="hill hill-2"></div>
+    <div class="hill hill-3"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Hello Texas Records</div>
+    <h1 class="hero-name">Sawyer<br>Price</h1>
+    <p class="hero-tagline">Country folk that moves at its own pace. Songs written like the man who wrote them — unhurried and honest about it.</p>
+    <div class="hero-cta-row">
+      <a href="#unrushed" class="hero-cta primary">Listen</a>
+      <a href="#bio" class="hero-cta secondary">About</a>
+    </div>
+  </div>
+</section>
+
+<!-- BIO -->
+<section id="bio">
+  <div class="bio-inner">
+    <div class="section-label">About</div>
+    <p class="bio-text">
+      <strong>Sawyer Price</strong> writes country folk songs that don't rush to make their point. Based in Texas, his music has the feel of a long drive on a farm road with no particular destination — the kind of songs that let you think while they're playing, and stay with you after they've stopped.
+    </p>
+  </div>
+</section>
+
+<!-- UNRUSHED -->
+<section id="unrushed" class="album-section">
+  <div class="album-wrap">
+    <div class="album-layout">
+      <div class="album-art-wrap">
+        <div class="album-art-placeholder">
+          <div class="ph-icon">🎸</div>
+          <span class="ph-label">Album Art</span>
+        </div>
+      </div>
+      <div class="album-info">
+        <div class="album-tag">Country · Folk · Red Dirt</div>
+        <div class="album-title-text">Unrushed</div>
+        <div class="album-artist">Sawyer Price</div>
+        <p class="album-desc">Two songs so far. More coming when they're ready. That's the whole philosophy right there.</p>
+        <div class="stream-row">
+          <a href="#" class="stream-btn">&#9654; Spotify</a>
+          <a href="#" class="stream-btn">&#9834; Apple Music</a>
+        </div>
+        <div class="tracklist">
+          <div class="track-row">
+            <span class="track-num">01</span>
+            <span class="track-title">Slow Like Sunday</span>
+            <button class="track-play-btn" onclick="playTrack('sp_1')">&#9654;</button>
+          </div>
+          <div class="track-row">
+            <span class="track-num">02</span>
+            <span class="track-title">Every Song is You</span>
+            <button class="track-play-btn" onclick="playTrack('sp_2')">&#9654;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-name">Sawyer Price</div>
+  <div class="foot-label">Hello Texas Records</div>
+  <div class="foot-links">
+    <a href="#">Spotify</a>
+    <a href="#">Apple Music</a>
+    <a href="#">YouTube</a>
+    <a href="#">Instagram</a>
+  </div>
+</footer>
+
+<audio id="audio" preload="none" playsinline webkit-playsinline x-webkit-airplay="allow">
+  <source id="audio-src" src="" type="audio/mpeg">
+</audio>
+
+<div id="player">
+  <div class="p-info">
+    <div class="p-title" id="p-title">—</div>
+    <div class="p-album" id="p-album">Sawyer Price</div>
+  </div>
+  <div class="p-controls">
+    <div class="p-btns">
+      <button class="p-btn" id="p-prev">&#9664;&#9664;</button>
+      <button class="p-play" id="p-playbtn">&#9654;</button>
+      <button class="p-btn" id="p-next">&#9654;&#9654;</button>
+    </div>
+    <div class="p-prog">
+      <span class="p-time" id="p-cur">0:00</span>
+      <div class="p-bar" id="p-bar"><div class="p-fill" id="p-fill"></div></div>
+      <span class="p-time" id="p-dur">0:00</span>
+    </div>
+  </div>
+  <div class="p-right">
+    <input type="range" class="p-vol" id="p-vol" min="0" max="1" step="0.02" value="0.85">
+    <button class="p-close" id="p-close">&#10005;</button>
+  </div>
+</div>
+
+<script>
+const TRACKS = {
+  sp_1:{title:'Slow Like Sunday',  album:'Unrushed', src:'https://www.dropbox.com/scl/fi/PLACEHOLDER_SP_01/track.mp3?dl=1'},
+  sp_2:{title:'Every Song is You', album:'Unrushed', src:'https://www.dropbox.com/scl/fi/PLACEHOLDER_SP_02/track.mp3?dl=1'},
+};
+const ALL=['sp_1','sp_2'];
+let cur=null;
+const audio=document.getElementById('audio');
+const player=document.getElementById('player');
+function fmt(s){if(isNaN(s))return'0:00';const m=Math.floor(s/60),sec=Math.floor(s%60);return m+':'+(sec<10?'0':'')+sec;}
+function setPlaying(id,playing){
+  document.querySelectorAll('.track-play-btn').forEach(b=>{
+    const tid=b.getAttribute('onclick').match(/'([^']+)'/)?.[1];
+    b.innerHTML=(tid===id&&playing)?'&#9646;&#9646;':'&#9654;';
+    b.classList.toggle('playing',tid===id&&playing);
+  });
+  document.getElementById('p-playbtn').innerHTML=playing?'&#9646;&#9646;':'&#9654;';
+}
+function playTrack(id){
+  const t=TRACKS[id];if(!t)return;
+  if(cur===id){if(audio.paused){audio.play().catch(()=>{});setPlaying(id,true);}else{audio.pause();setPlaying(id,false);}return;}
+  cur=id;audio.crossOrigin='anonymous';audio.src=t.src;
+  document.getElementById('audio-src').src=t.src;audio.load();audio.play().catch(()=>{});
+  document.getElementById('p-title').textContent=t.title;
+  document.getElementById('p-album').textContent=t.album;
+  player.style.display='grid';setTimeout(()=>player.classList.add('visible'),10);
+  setPlaying(id,true);
+}
+audio.addEventListener('timeupdate',()=>{
+  const pct=audio.duration?(audio.currentTime/audio.duration)*100:0;
+  document.getElementById('p-fill').style.width=pct+'%';
+  document.getElementById('p-cur').textContent=fmt(audio.currentTime);
+  document.getElementById('p-dur').textContent=fmt(audio.duration);
+});
+audio.addEventListener('ended',()=>{const idx=ALL.indexOf(cur);if(idx<ALL.length-1)playTrack(ALL[idx+1]);else setPlaying(cur,false);});
+document.getElementById('p-playbtn').addEventListener('click',()=>{if(!cur)return;if(audio.paused){audio.play().catch(()=>{});setPlaying(cur,true);}else{audio.pause();setPlaying(cur,false);}});
+document.getElementById('p-prev').addEventListener('click',()=>{if(!cur)return;const idx=ALL.indexOf(cur);if(audio.currentTime>3){audio.currentTime=0;return;}if(idx>0)playTrack(ALL[idx-1]);});
+document.getElementById('p-next').addEventListener('click',()=>{if(!cur)return;const idx=ALL.indexOf(cur);if(idx<ALL.length-1)playTrack(ALL[idx+1]);});
+document.getElementById('p-bar').addEventListener('click',e=>{if(!audio.duration)return;const r=e.currentTarget.getBoundingClientRect();audio.currentTime=((e.clientX-r.left)/r.width)*audio.duration;});
+document.getElementById('p-vol').addEventListener('input',e=>{audio.volume=e.target.value;});
+document.getElementById('p-close').addEventListener('click',()=>{audio.pause();player.classList.remove('visible');setTimeout(()=>player.style.display='none',350);setPlaying(cur,false);cur=null;});
+const nav=document.getElementById('topnav');
+window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>60);});
+</script>
+</body>
+</html>
