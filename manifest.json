@@ -1,0 +1,21 @@
+{
+  "name": "Sawyer Price",
+  "short_name": "Sawyer Price",
+  "description": "Red Dirt Country",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0d0c0b",
+  "theme_color": "#C4892A",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/SteveP999/Hello-Texas-Records/main/sawyer-price-logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/SteveP999/Hello-Texas-Records/main/sawyer-price-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
