@@ -24,7 +24,13 @@
       "album": "Unrushed",
       "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-slow-like-sunday-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/bitpjaaarrwfnd0vmunzw/Slow-Like-Sunday-v01-Mastered-mp3.mp3?rlkey=exmyeq79diwehdpa9ki8r4qx2&raw=1",
-      "videos": []
+      "videos": [
+        {
+          "title": "Slow Like Sunday",
+          "youtube": "https://youtu.be/mQ7fKSR4kCg",
+          "order": 1
+        }
+      ]
     },
     {
       "title": "It's Not the End of the World",
