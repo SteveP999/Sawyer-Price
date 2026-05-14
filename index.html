@@ -203,17 +203,17 @@ a{color:inherit}
 #latest-single{
   position:relative;
   background:linear-gradient(135deg,var(--mid),var(--ink));
-  padding:1.65rem 0;
+  padding:4rem 0;
   border-top:1px solid var(--faded-line);
   border-bottom:1px solid var(--faded-line);
   z-index:1;
 }
-.latest-inner{max-width:1040px;margin:0 auto;padding:0 2rem;display:grid;grid-template-columns:170px 1fr;gap:1.75rem;align-items:center}
-.latest-cover{width:100%;max-width:170px;aspect-ratio:1;object-fit:cover;display:block;border-radius:var(--radius);box-shadow:0 0 28px var(--accent-glow),0 12px 34px rgba(0,0,0,.68)}
-.latest-badge,.album-badge{font-family:'Barlow Condensed',serif;display:inline-block;font-size:.58rem;letter-spacing:.25em;text-transform:uppercase;color:var(--accent);border:1px solid var(--line);padding:.24rem .75rem;margin-bottom:.65rem}
-.latest-title{font-family:'Bebas Neue',serif;font-size:clamp(1.55rem,2.8vw,2.35rem);font-weight:400;color:var(--white);line-height:1.05;margin-bottom:.18rem;text-transform:uppercase}
-.latest-sub,.album-artist{font-family:'Barlow Condensed',serif;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:.85rem}
-.latest-play-btn{display:inline-flex;align-items:center;gap:.65rem;background:transparent;color:var(--accent);border:1px solid var(--line);padding:.58rem 1.35rem;font-family:'Barlow Condensed',serif;font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;transition:border-color .2s,background .2s}
+.latest-inner{max-width:1080px;margin:0 auto;padding:0 2.5rem;display:grid;grid-template-columns:360px 1fr;gap:4rem;align-items:center}
+.latest-cover{width:100%;aspect-ratio:1;object-fit:cover;display:block;border-radius:var(--radius);box-shadow:0 0 50px var(--accent-glow),0 24px 64px rgba(0,0,0,.8)}
+.latest-badge,.album-badge{font-family:'Barlow Condensed',serif;display:inline-block;font-size:.58rem;letter-spacing:.25em;text-transform:uppercase;color:var(--accent);border:1px solid var(--line);padding:.28rem .85rem;margin-bottom:1.2rem}
+.latest-title{font-family:'Bebas Neue',serif;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:400;color:var(--white);line-height:1.12;margin-bottom:.4rem;text-transform:uppercase}
+.latest-sub,.album-artist{font-family:'Barlow Condensed',serif;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-bottom:2rem}
+.latest-play-btn{display:inline-flex;align-items:center;gap:.75rem;background:transparent;color:var(--accent);border:1px solid var(--line);padding:.85rem 2rem;font-family:'Barlow Condensed',serif;font-size:.76rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;transition:border-color .2s,background .2s}
 .latest-play-btn:hover{background:var(--accent-glow)}
 
 #albums{
@@ -378,21 +378,17 @@ a{color:inherit}
 .photo-strip.empty{display:none}
 
 .video-grid{
-  display:flex;
-  flex-direction:column;
-  gap:2rem;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:1.5rem;
   padding:1.5rem;
-  max-width:920px;
-  margin:0 auto;
 }
 .video-card{
   display:block;
-  width:100%;
   text-decoration:none;
   color:inherit;
   border:1px solid var(--line);
   background:rgba(0,0,0,.22);
-  box-shadow:0 22px 80px rgba(0,0,0,.42);
   transition:transform .2s,border-color .2s,background .2s;
 }
 .video-card:hover{
@@ -413,9 +409,9 @@ a{color:inherit}
 }
 .video-card-title{
   font-family:'Bebas Neue',serif;
-  font-size:clamp(1.35rem,2.2vw,1.85rem);
+  font-size:1.2rem;
   color:var(--white);
-  padding:1.15rem 1.25rem .2rem;
+  padding:1rem 1rem .15rem;
   text-transform:uppercase;
 }
 .video-card-actions{
@@ -848,18 +844,11 @@ footer{
   .stage{min-height:74vh}
   .stage-inner{min-height:74vh;padding:5.6rem 1rem 2.2rem}
   .stage-logo img{width:min(620px,96vw);max-height:243px}
-  .latest-inner{grid-template-columns:118px minmax(0,1fr);gap:1rem;padding:0 1rem}
-  .latest-cover{max-width:118px}
-  .latest-title{font-size:clamp(1.25rem,6vw,1.8rem)}
-  .latest-sub{margin-bottom:.65rem}
-  .latest-play-btn{padding:.5rem .95rem;font-size:.62rem}
-  .album-layout,.album-layout.cover-right{grid-template-columns:1fr}
+  .latest-inner,.album-layout,.album-layout.cover-right{grid-template-columns:1fr}
   .album-layout.cover-right .album-cover-wrap,.album-layout.cover-right .album-info{grid-column:auto;grid-row:auto}
 
   .release-wall{grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:1rem}
   .release-card{max-width:none}
-  .video-grid{padding:1rem;gap:1.35rem}
-  .feature-video{width:min(920px,96vw)}
   #albums,.lower-video-section,#bio,.photo-strip,footer{background-attachment:scroll}
   .photo-strip{grid-template-columns:1fr;height:auto}
   .photo-strip img{height:340px}
@@ -947,7 +936,7 @@ footer{
 </div>
 
 <audio id="audio"></audio>
-<script id="artist-data" type="application/json">{"artist": {"id": "sawyer-price", "name": "Sawyer Price", "genre": "Texas country / Red Dirt", "tagline": "Sawyer Price is part of the Hello Texas Records roster.", "bio": "Sawyer Price is part of the Hello Texas Records roster.", "theme": "country", "logo": "images/logos/sawyer-price-logo.png", "hero": "images/artist/sawyer-price-hero-photo.png", "discographyBg": "images/artist/sawyer-price-discography-bg.png", "videoBg": "images/artist/sawyer-price-video-bg.png", "photos": ["images/artist/sawyer-price-photo-1.png", "images/artist/sawyer-price-photo-2.png", "images/artist/sawyer-price-photo-3.png"]}, "latest": {"title": "Every Song is You", "artist": "Sawyer Price", "album": "Unrushed", "type": "Latest Single", "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-every-song-is-you-cover.png", "image": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-every-song-is-you-cover.png", "audio": "https://www.dropbox.com/scl/fi/emwh6p45i8l2fydaz0o8c/V3-Every-Song-Is-You-Mastered-MP3-411.mp3?rlkey=17b87sw5gzelujbblmm99euay&raw=1", "audioSrc": "https://www.dropbox.com/scl/fi/emwh6p45i8l2fydaz0o8c/V3-Every-Song-Is-You-Mastered-MP3-411.mp3?rlkey=17b87sw5gzelujbblmm99euay&raw=1", "videos": []}, "songs": [{"id": "every_song_is_you", "num": "01", "title": "Every Song is You", "artist": "Sawyer Price", "album": "Unrushed", "trackNumber": 1, "albumOrder": 1, "albumSortOrder": 9999, "sourceOrder": 1, "albumCover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-every-song-is-you-cover.png", "type": "single", "isLatest": true, "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-every-song-is-you-cover.png", "audio": "https://www.dropbox.com/scl/fi/emwh6p45i8l2fydaz0o8c/V3-Every-Song-Is-You-Mastered-MP3-411.mp3?rlkey=17b87sw5gzelujbblmm99euay&raw=1", "audioSrc": "https://www.dropbox.com/scl/fi/emwh6p45i8l2fydaz0o8c/V3-Every-Song-Is-You-Mastered-MP3-411.mp3?rlkey=17b87sw5gzelujbblmm99euay&raw=1", "videos": [], "includeOnRadio": true, "includeOnHomepage": false, "explicit": false, "tags": []}, {"id": "slow_like_sunday", "num": "02", "title": "Slow Like Sunday", "artist": "Sawyer Price", "album": "Unrushed", "trackNumber": 2, "albumOrder": 2, "albumSortOrder": 9999, "sourceOrder": 2, "albumCover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-slow-like-sunday-cover.png", "type": "single", "isLatest": false, "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-slow-like-sunday-cover.png", "audio": "https://www.dropbox.com/scl/fi/bitpjaaarrwfnd0vmunzw/Slow-Like-Sunday-v01-Mastered-mp3.mp3?rlkey=exmyeq79diwehdpa9ki8r4qx2&raw=1", "audioSrc": "https://www.dropbox.com/scl/fi/bitpjaaarrwfnd0vmunzw/Slow-Like-Sunday-v01-Mastered-mp3.mp3?rlkey=exmyeq79diwehdpa9ki8r4qx2&raw=1", "videos": [{"title": "Slow Like Sunday", "youtube": "https://youtu.be/mQ7fKSR4kCg", "order": 1}], "includeOnRadio": true, "includeOnHomepage": false, "explicit": false, "tags": []}, {"id": "its_not_the_end_of_the_world", "num": "03", "title": "It's Not the End of the World", "artist": "Sawyer Price", "album": "Unrushed", "trackNumber": 3, "albumOrder": 3, "albumSortOrder": 9999, "sourceOrder": 3, "albumCover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-its-not-the-end-of-the-world-cover.png", "type": "single", "isLatest": false, "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-its-not-the-end-of-the-world-cover.png", "audio": "https://www.dropbox.com/scl/fi/9dmyy1dgdahz0br6pkz0x/It-s-Not-the-End-of-the-World-Mastered-MP3.mp3?rlkey=zyg5ujza84d2udn1wfrbpwoe8&raw=1", "audioSrc": "https://www.dropbox.com/scl/fi/9dmyy1dgdahz0br6pkz0x/It-s-Not-the-End-of-the-World-Mastered-MP3.mp3?rlkey=zyg5ujza84d2udn1wfrbpwoe8&raw=1", "videos": [], "includeOnRadio": true, "includeOnHomepage": false, "explicit": false, "tags": []}, {"id": "miles_between_mistakes", "num": "04", "title": "Miles Between Mistakes", "artist": "Sawyer Price", "album": "Unrushed", "trackNumber": 4, "albumOrder": 4, "albumSortOrder": 9999, "sourceOrder": 4, "albumCover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-miles-between-mistakes-cover.png", "type": "single", "isLatest": false, "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-miles-between-mistakes-cover.png", "audio": "https://www.dropbox.com/scl/fi/hikevhxn35l202bvyr9h4/Miles-Between-Mistakes-Mastered-MP3.mp3?rlkey=ep2g8nkmr5xn115b6sdi4p0cb&raw=1", "audioSrc": "https://www.dropbox.com/scl/fi/hikevhxn35l202bvyr9h4/Miles-Between-Mistakes-Mastered-MP3.mp3?rlkey=ep2g8nkmr5xn115b6sdi4p0cb&raw=1", "videos": [], "includeOnRadio": true, "includeOnHomepage": false, "explicit": false, "tags": []}, {"id": "better_than_i_was", "num": "05", "title": "Better Than I Was", "artist": "Sawyer Price", "album": "Unrushed", "trackNumber": 5, "albumOrder": 5, "albumSortOrder": 9999, "sourceOrder": 5, "albumCover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-better-than-i-was-cover.png", "type": "single", "isLatest": false, "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-better-than-i-was-cover.png", "audio": "https://www.dropbox.com/scl/fi/fk5xta94xxst5pvy3p2vu/sawyer-price-better-than-i-was-mp3.mp3?rlkey=8djl84bq7ostjo6styngxdjph&raw=1", "audioSrc": "https://www.dropbox.com/scl/fi/fk5xta94xxst5pvy3p2vu/sawyer-price-better-than-i-was-mp3.mp3?rlkey=8djl84bq7ostjo6styngxdjph&raw=1", "videos": [], "includeOnRadio": true, "includeOnHomepage": false, "explicit": false, "tags": []}, {"id": "all_my_life", "num": "06", "title": "All My Life", "artist": "Sawyer Price", "album": "Unrushed", "trackNumber": 6, "albumOrder": 6, "albumSortOrder": 9999, "sourceOrder": 6, "albumCover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-all-my-life-cover.png", "type": "single", "isLatest": false, "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-all-my-life-cover.png", "audio": "https://www.dropbox.com/scl/fi/2bme49g8ftejf9e3recpn/Sawyer-Price-All-My-Life-Mastered-MP3.mp3?rlkey=k1ob4d11k6j9lw7axx42mwaz7&raw=1", "audioSrc": "https://www.dropbox.com/scl/fi/2bme49g8ftejf9e3recpn/Sawyer-Price-All-My-Life-Mastered-MP3.mp3?rlkey=k1ob4d11k6j9lw7axx42mwaz7&raw=1", "videos": [], "includeOnRadio": true, "includeOnHomepage": false, "explicit": false, "tags": []}], "hasVideoSection": true}</script>
+<script id="artist-data" type="application/json">{"artist": {"id": "sawyer-price", "name": "Sawyer Price", "genre": "Texas country / Red Dirt", "tagline": "Sawyer Price is part of the Hello Texas Records roster.", "bio": "Sawyer Price is part of the Hello Texas Records roster.", "theme": "country", "logo": "images/logos/sawyer-price-logo.png", "hero": "images/artist/sawyer-price-hero-photo.png", "discographyBg": "images/artist/sawyer-price-discography-bg.png", "videoBg": "images/artist/sawyer-price-video-bg.png", "photos": ["images/artist/sawyer-price-photo-1.png", "images/artist/sawyer-price-photo-2.png", "images/artist/sawyer-price-photo-3.png"]}, "latest": {"title": "Every Song is You", "artist": "Sawyer Price", "album": "Unrushed", "type": "Latest Single", "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-every-song-is-you-cover.png", "image": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-every-song-is-you-cover.png", "audio": "https://www.dropbox.com/scl/fi/emwh6p45i8l2fydaz0o8c/V3-Every-Song-Is-You-Mastered-MP3-411.mp3?rlkey=17b87sw5gzelujbblmm99euay&raw=1", "audioSrc": "https://www.dropbox.com/scl/fi/emwh6p45i8l2fydaz0o8c/V3-Every-Song-Is-You-Mastered-MP3-411.mp3?rlkey=17b87sw5gzelujbblmm99euay&raw=1", "videos": []}, "songs": [{"id": "every_song_is_you", "num": "01", "title": "Every Song is You", "artist": "Sawyer Price", "album": "Unrushed", "trackNumber": 1, "albumOrder": 1, "albumSortOrder": 9999, "sourceOrder": 1, "albumCover": "images/covers/sawyer-price-unrushed-ALBUM-cover.png", "type": "single", "isLatest": true, "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-every-song-is-you-cover.png", "audio": "https://www.dropbox.com/scl/fi/emwh6p45i8l2fydaz0o8c/V3-Every-Song-Is-You-Mastered-MP3-411.mp3?rlkey=17b87sw5gzelujbblmm99euay&raw=1", "audioSrc": "https://www.dropbox.com/scl/fi/emwh6p45i8l2fydaz0o8c/V3-Every-Song-Is-You-Mastered-MP3-411.mp3?rlkey=17b87sw5gzelujbblmm99euay&raw=1", "videos": [], "includeOnRadio": true, "includeOnHomepage": false, "explicit": false, "tags": []}, {"id": "slow_like_sunday", "num": "02", "title": "Slow Like Sunday", "artist": "Sawyer Price", "album": "Unrushed", "trackNumber": 2, "albumOrder": 2, "albumSortOrder": 9999, "sourceOrder": 2, "albumCover": "images/covers/sawyer-price-unrushed-ALBUM-cover.png", "type": "single", "isLatest": false, "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-slow-like-sunday-cover.png", "audio": "https://www.dropbox.com/scl/fi/bitpjaaarrwfnd0vmunzw/Slow-Like-Sunday-v01-Mastered-mp3.mp3?rlkey=exmyeq79diwehdpa9ki8r4qx2&raw=1", "audioSrc": "https://www.dropbox.com/scl/fi/bitpjaaarrwfnd0vmunzw/Slow-Like-Sunday-v01-Mastered-mp3.mp3?rlkey=exmyeq79diwehdpa9ki8r4qx2&raw=1", "videos": [{"title": "Slow Like Sunday", "youtube": "https://youtu.be/mQ7fKSR4kCg", "order": 1}], "includeOnRadio": true, "includeOnHomepage": false, "explicit": false, "tags": []}, {"id": "its_not_the_end_of_the_world", "num": "03", "title": "It's Not the End of the World", "artist": "Sawyer Price", "album": "Unrushed", "trackNumber": 3, "albumOrder": 3, "albumSortOrder": 9999, "sourceOrder": 3, "albumCover": "images/covers/sawyer-price-unrushed-ALBUM-cover.png", "type": "single", "isLatest": false, "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-its-not-the-end-of-the-world-cover.png", "audio": "https://www.dropbox.com/scl/fi/9dmyy1dgdahz0br6pkz0x/It-s-Not-the-End-of-the-World-Mastered-MP3.mp3?rlkey=zyg5ujza84d2udn1wfrbpwoe8&raw=1", "audioSrc": "https://www.dropbox.com/scl/fi/9dmyy1dgdahz0br6pkz0x/It-s-Not-the-End-of-the-World-Mastered-MP3.mp3?rlkey=zyg5ujza84d2udn1wfrbpwoe8&raw=1", "videos": [], "includeOnRadio": true, "includeOnHomepage": false, "explicit": false, "tags": []}, {"id": "miles_between_mistakes", "num": "04", "title": "Miles Between Mistakes", "artist": "Sawyer Price", "album": "Unrushed", "trackNumber": 4, "albumOrder": 4, "albumSortOrder": 9999, "sourceOrder": 4, "albumCover": "images/covers/sawyer-price-unrushed-ALBUM-cover.png", "type": "single", "isLatest": false, "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-miles-between-mistakes-cover.png", "audio": "https://www.dropbox.com/scl/fi/hikevhxn35l202bvyr9h4/Miles-Between-Mistakes-Mastered-MP3.mp3?rlkey=ep2g8nkmr5xn115b6sdi4p0cb&raw=1", "audioSrc": "https://www.dropbox.com/scl/fi/hikevhxn35l202bvyr9h4/Miles-Between-Mistakes-Mastered-MP3.mp3?rlkey=ep2g8nkmr5xn115b6sdi4p0cb&raw=1", "videos": [], "includeOnRadio": true, "includeOnHomepage": false, "explicit": false, "tags": []}, {"id": "better_than_i_was", "num": "05", "title": "Better Than I Was", "artist": "Sawyer Price", "album": "Unrushed", "trackNumber": 5, "albumOrder": 5, "albumSortOrder": 9999, "sourceOrder": 5, "albumCover": "images/covers/sawyer-price-unrushed-ALBUM-cover.png", "type": "single", "isLatest": false, "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-better-than-i-was-cover.png", "audio": "https://www.dropbox.com/scl/fi/fk5xta94xxst5pvy3p2vu/sawyer-price-better-than-i-was-mp3.mp3?rlkey=8djl84bq7ostjo6styngxdjph&raw=1", "audioSrc": "https://www.dropbox.com/scl/fi/fk5xta94xxst5pvy3p2vu/sawyer-price-better-than-i-was-mp3.mp3?rlkey=8djl84bq7ostjo6styngxdjph&raw=1", "videos": [], "includeOnRadio": true, "includeOnHomepage": false, "explicit": false, "tags": []}, {"id": "all_my_life", "num": "06", "title": "All My Life", "artist": "Sawyer Price", "album": "Unrushed", "trackNumber": 6, "albumOrder": 6, "albumSortOrder": 9999, "sourceOrder": 6, "albumCover": "images/covers/sawyer-price-unrushed-ALBUM-cover.png", "type": "single", "isLatest": false, "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-all-my-life-cover.png", "audio": "https://www.dropbox.com/scl/fi/2bme49g8ftejf9e3recpn/Sawyer-Price-All-My-Life-Mastered-MP3.mp3?rlkey=k1ob4d11k6j9lw7axx42mwaz7&raw=1", "audioSrc": "https://www.dropbox.com/scl/fi/2bme49g8ftejf9e3recpn/Sawyer-Price-All-My-Life-Mastered-MP3.mp3?rlkey=k1ob4d11k6j9lw7axx42mwaz7&raw=1", "videos": [], "includeOnRadio": true, "includeOnHomepage": false, "explicit": false, "tags": []}], "hasVideoSection": true}</script>
 <script>
 const DATA = JSON.parse(document.getElementById('artist-data').textContent);
 const SONGS = DATA.songs || [];
