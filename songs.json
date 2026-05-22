@@ -144,5 +144,25 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": []
+  },
+  {
+    "id": "sawyer-price-wish-that-i-was-here",
+    "num": "08",
+    "title": "Wish That I Was Here",
+    "artist": "Sawyer Price",
+    "album": "Unrushed",
+    "trackNumber": 8,
+    "albumOrder": 8,
+    "albumCover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-unrushed-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-wish-that-i-was-here-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/omwmauhlbbfrzqzagju9c/sawyer-price-wish-that-i-was-here-mp3.mp3?rlkey=sfyryj05qt7a4k2fa7s87ix4x&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/omwmauhlbbfrzqzagju9c/sawyer-price-wish-that-i-was-here-mp3.mp3?rlkey=sfyryj05qt7a4k2fa7s87ix4x&raw=1",
+    "videos": [],
+    "includeOnRadio": true,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": []
   }
 ]
