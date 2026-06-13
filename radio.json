@@ -2,11 +2,11 @@
   "artist": "Sawyer Price",
   "latestUrl": "latest.json",
   "featuredTrack": {
-    "title": "Burnin' Gas",
+    "title": "Still My Favorite Song",
     "artist": "Sawyer Price",
     "album": "Unrushed",
-    "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-burnin-gas-cover.png",
-    "audioSrc": "https://www.dropbox.com/scl/fi/4fx72e3509ucibl04wnm5/sawyer-price-burnin-gas-MP3.mp3?rlkey=k0llb4t23e4hlei6gafmk57xk&raw=1",
+    "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-still-my-favorite-song-cover.png",
+    "audioSrc": "https://www.dropbox.com/scl/fi/qg86vamj1aeogqmqt5jve/sawyer-price-still-my-favorite-song-mp3.mp3?rlkey=fbg8qdzq23x3vmqqomc3hdgww&raw=1",
     "videos": []
   },
   "tracks": [
@@ -71,6 +71,14 @@
           "order": 1
         }
       ]
+    },
+    {
+      "title": "Still My Favorite Song",
+      "artist": "Sawyer Price",
+      "album": "Unrushed",
+      "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-still-my-favorite-song-cover.png",
+      "audioSrc": "https://www.dropbox.com/scl/fi/qg86vamj1aeogqmqt5jve/sawyer-price-still-my-favorite-song-mp3.mp3?rlkey=fbg8qdzq23x3vmqqomc3hdgww&raw=1",
+      "videos": []
     },
     {
       "title": "Wish That I Was Here",
