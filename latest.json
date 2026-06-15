@@ -7,5 +7,11 @@
   "image": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-still-my-favorite-song-cover.png",
   "audio": "https://www.dropbox.com/scl/fi/qg86vamj1aeogqmqt5jve/sawyer-price-still-my-favorite-song-mp3.mp3?rlkey=fbg8qdzq23x3vmqqomc3hdgww&raw=1",
   "audioSrc": "https://www.dropbox.com/scl/fi/qg86vamj1aeogqmqt5jve/sawyer-price-still-my-favorite-song-mp3.mp3?rlkey=fbg8qdzq23x3vmqqomc3hdgww&raw=1",
-  "videos": []
+  "videos": [
+    {
+      "title": "Still My Favorite Song",
+      "youtube": "https://youtu.be/Oc64NmV4Nko",
+      "order": 2
+    }
+  ]
 }
