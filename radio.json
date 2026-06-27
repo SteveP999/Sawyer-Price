@@ -2,16 +2,16 @@
   "artist": "Sawyer Price",
   "latestUrl": "latest.json",
   "featuredTrack": {
-    "title": "Still My Favorite Song",
+    "title": "What's Left Of Me",
     "artist": "Sawyer Price",
     "album": "Unrushed",
-    "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-still-my-favorite-song-cover.png",
-    "audioSrc": "https://www.dropbox.com/scl/fi/qg86vamj1aeogqmqt5jve/sawyer-price-still-my-favorite-song-mp3.mp3?rlkey=fbg8qdzq23x3vmqqomc3hdgww&raw=1",
+    "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-whats-left-of-me-cover.png",
+    "audioSrc": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
     "videos": [
       {
-        "title": "Still My Favorite Song",
-        "youtube": "https://youtu.be/Oc64NmV4Nko",
-        "order": 2
+        "title": "Official Video",
+        "youtube": "https://youtu.be/MY6Pwp78E_0",
+        "order": 1
       }
     ]
   },
@@ -89,6 +89,20 @@
           "title": "Still My Favorite Song",
           "youtube": "https://youtu.be/Oc64NmV4Nko",
           "order": 2
+        }
+      ]
+    },
+    {
+      "title": "What's Left Of Me",
+      "artist": "Sawyer Price",
+      "album": "Unrushed",
+      "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-whats-left-of-me-cover.png",
+      "audioSrc": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
+      "videos": [
+        {
+          "title": "Official Video",
+          "youtube": "https://youtu.be/MY6Pwp78E_0",
+          "order": 1
         }
       ]
     },

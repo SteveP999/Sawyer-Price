@@ -155,7 +155,7 @@
     "albumOrder": 8,
     "albumCover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-unrushed-ALBUM-cover.png",
     "type": "single",
-    "isLatest": true,
+    "isLatest": false,
     "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-still-my-favorite-song-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/qg86vamj1aeogqmqt5jve/sawyer-price-still-my-favorite-song-mp3.mp3?rlkey=fbg8qdzq23x3vmqqomc3hdgww&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/qg86vamj1aeogqmqt5jve/sawyer-price-still-my-favorite-song-mp3.mp3?rlkey=fbg8qdzq23x3vmqqomc3hdgww&raw=1",
@@ -172,13 +172,39 @@
     "tags": []
   },
   {
-    "id": "sawyer-price-wish-that-i-was-here",
+    "id": "sawyer-price-whats-left-of-me",
     "num": "09",
-    "title": "Wish That I Was Here",
+    "title": "What's Left Of Me",
     "artist": "Sawyer Price",
     "album": "Unrushed",
     "trackNumber": 9,
     "albumOrder": 9,
+    "albumCover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-unrushed-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-whats-left-of-me-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
+    "videos": [
+      {
+        "title": "Official Video",
+        "youtube": "https://youtu.be/MY6Pwp78E_0",
+        "order": 1
+      }
+    ],
+    "includeOnRadio": true,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": []
+  },
+  {
+    "id": "sawyer-price-wish-that-i-was-here",
+    "num": "10",
+    "title": "Wish That I Was Here",
+    "artist": "Sawyer Price",
+    "album": "Unrushed",
+    "trackNumber": 10,
+    "albumOrder": 10,
     "albumCover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-unrushed-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
