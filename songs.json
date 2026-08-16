@@ -17,7 +17,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "better_than_i_was",
@@ -37,7 +38,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "sawyer-price-burnin-gas",
@@ -57,7 +59,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": true,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "every_song_is_you",
@@ -77,7 +80,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "its_not_the_end_of_the_world",
@@ -97,7 +101,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "miles_between_mistakes",
@@ -117,7 +122,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "slow_like_sunday",
@@ -131,8 +137,8 @@
     "type": "single",
     "isLatest": false,
     "cover": "images/covers/sawyer-price-slow-like-sunday-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/bitpjaaarrwfnd0vmunzw/Slow-Like-Sunday-v01-Mastered-mp3.mp3?rlkey=exmyeq79diwehdpa9ki8r4qx2&raw=1",
-    "audioSrc": "https://www.dropbox.com/scl/fi/bitpjaaarrwfnd0vmunzw/Slow-Like-Sunday-v01-Mastered-mp3.mp3?rlkey=exmyeq79diwehdpa9ki8r4qx2&raw=1",
+    "audio": "https://www.dropbox.com/scl/fi/w4p1ff2l7uxuw9dnkb4ko/sawyer-price-slow-like-sunday-mp3.mp3?rlkey=k2ul1da7j5ap1jn24iyijt74n&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/w4p1ff2l7uxuw9dnkb4ko/sawyer-price-slow-like-sunday-mp3.mp3?rlkey=k2ul1da7j5ap1jn24iyijt74n&raw=1",
     "videos": [
       {
         "title": "Slow Like Sunday",
@@ -143,7 +149,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": false,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "sawyer-price-still-my-favorite-song",
@@ -169,7 +176,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": true,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "sawyer-price-whats-left-of-me",
@@ -195,7 +203,8 @@
     "includeOnRadio": true,
     "includeOnHomepage": true,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   },
   {
     "id": "sawyer-price-wish-that-i-was-here",
@@ -215,6 +224,7 @@
     "includeOnRadio": true,
     "includeOnHomepage": true,
     "explicit": false,
-    "tags": []
+    "tags": [],
+    "streaming": {}
   }
 ]
