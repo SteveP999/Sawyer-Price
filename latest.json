@@ -1,17 +1,11 @@
 {
-  "title": "What's Left Of Me",
+  "title": "Good Night, Good Luck, Goodbye",
   "artist": "Sawyer Price",
   "album": "Unrushed",
   "type": "Latest Single",
-  "cover": "images/covers/sawyer-price-whats-left-of-me-cover.png",
-  "image": "images/covers/sawyer-price-whats-left-of-me-cover.png",
-  "audio": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
-  "audioSrc": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
-  "videos": [
-    {
-      "title": "Official Video",
-      "youtube": "https://youtu.be/MY6Pwp78E_0",
-      "order": 1
-    }
-  ]
+  "cover": "images/covers/sawyer-price-good-night-good-luck-goodbye-cover.png",
+  "image": "images/covers/sawyer-price-good-night-good-luck-goodbye-cover.png",
+  "audio": "https://www.dropbox.com/scl/fi/7bkhye03u5ckbu9fol3kq/sawyer-price-good-night-good-luck-goodbye-WAV-mastered.wav?rlkey=4cdbk2stlb2fawdhf6c97vlzk&raw=1",
+  "audioSrc": "https://www.dropbox.com/scl/fi/7bkhye03u5ckbu9fol3kq/sawyer-price-good-night-good-luck-goodbye-WAV-mastered.wav?rlkey=4cdbk2stlb2fawdhf6c97vlzk&raw=1",
+  "videos": []
 }

@@ -137,12 +137,12 @@
     "type": "single",
     "isLatest": false,
     "cover": "images/covers/sawyer-price-slow-like-sunday-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/w4p1ff2l7uxuw9dnkb4ko/sawyer-price-slow-like-sunday-mp3.mp3?rlkey=k2ul1da7j5ap1jn24iyijt74n&raw=1",
-    "audioSrc": "https://www.dropbox.com/scl/fi/w4p1ff2l7uxuw9dnkb4ko/sawyer-price-slow-like-sunday-mp3.mp3?rlkey=k2ul1da7j5ap1jn24iyijt74n&raw=1",
+    "audio": "https://www.dropbox.com/scl/fi/bitpjaaarrwfnd0vmunzw/Slow-Like-Sunday-v01-Mastered-mp3.mp3?rlkey=exmyeq79diwehdpa9ki8r4qx2&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/bitpjaaarrwfnd0vmunzw/Slow-Like-Sunday-v01-Mastered-mp3.mp3?rlkey=exmyeq79diwehdpa9ki8r4qx2&raw=1",
     "videos": [
       {
-        "title": "Slow Like Sunday",
         "youtube": "https://youtu.be/mQ7fKSR4kCg",
+        "title": "Official Video",
         "order": 1
       }
     ],
@@ -168,9 +168,9 @@
     "audioSrc": "https://www.dropbox.com/scl/fi/qg86vamj1aeogqmqt5jve/sawyer-price-still-my-favorite-song-mp3.mp3?rlkey=fbg8qdzq23x3vmqqomc3hdgww&raw=1",
     "videos": [
       {
-        "title": "Still My Favorite Song",
         "youtube": "https://youtu.be/Oc64NmV4Nko",
-        "order": 2
+        "title": "Official Video",
+        "order": 1
       }
     ],
     "includeOnRadio": true,
@@ -189,14 +189,14 @@
     "albumOrder": 9,
     "albumCover": "images/covers/sawyer-price-unrushed-ALBUM-cover.png",
     "type": "single",
-    "isLatest": true,
+    "isLatest": false,
     "cover": "images/covers/sawyer-price-whats-left-of-me-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
     "videos": [
       {
-        "title": "Official Video",
         "youtube": "https://youtu.be/MY6Pwp78E_0",
+        "title": "Official Video",
         "order": 1
       }
     ],
