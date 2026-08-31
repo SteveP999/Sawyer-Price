@@ -2,11 +2,11 @@
   "artist": "Sawyer Price",
   "latestUrl": "latest.json",
   "featuredTrack": {
-    "title": "When the Sky Turns Green",
+    "title": "Good Night, Good Luck, Goodbye",
     "artist": "Sawyer Price",
     "album": "Unrushed",
-    "cover": "images/covers/sawyer-price-when-the-sky-turns-green-cover.png",
-    "audioSrc": "https://www.dropbox.com/scl/fi/cpv6qk8ttndthsbe6z1ew/sawyer-price-when-the-sky-turns-green-MP3-mastered.mp3?rlkey=p49n67unhog3nvvhf181u29j3&raw=1",
+    "cover": "images/covers/sawyer-price-good-night-good-luck-goodbye-cover.png",
+    "audioSrc": "https://www.dropbox.com/scl/fi/zmxza4bjulzyydw4elgeb/saywer-price-good-night-good-luck-goodbye-MP3-mastered.mp3?rlkey=hvqlg7a7070da59ubpt02k9ap&raw=1",
     "videos": []
   },
   "tracks": [
@@ -106,6 +106,14 @@
       "album": "Unrushed",
       "cover": "images/covers/sawyer-price-wish-that-i-was-here-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/omwmauhlbbfrzqzagju9c/sawyer-price-wish-that-i-was-here-mp3.mp3?rlkey=sfyryj05qt7a4k2fa7s87ix4x&raw=1",
+      "videos": []
+    },
+    {
+      "title": "Good Night, Good Luck, Goodbye",
+      "artist": "Sawyer Price",
+      "album": "Unrushed",
+      "cover": "images/covers/sawyer-price-good-night-good-luck-goodbye-cover.png",
+      "audioSrc": "https://www.dropbox.com/scl/fi/zmxza4bjulzyydw4elgeb/saywer-price-good-night-good-luck-goodbye-MP3-mastered.mp3?rlkey=hvqlg7a7070da59ubpt02k9ap&raw=1",
       "videos": []
     },
     {
