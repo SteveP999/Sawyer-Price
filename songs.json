@@ -226,5 +226,26 @@
     "explicit": false,
     "tags": [],
     "streaming": {}
+  },
+  {
+    "id": "sawyer-price-good-night-good-luck-goodbye",
+    "num": "11",
+    "title": "Good Night, Good Luck, Goodbye",
+    "artist": "Sawyer Price",
+    "album": "Unrushed",
+    "trackNumber": 11,
+    "albumOrder": 11,
+    "albumCover": "images/covers/sawyer-price-unrushed-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/sawyer-price-good-night-good-luck-goodbye-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/7bkhye03u5ckbu9fol3kq/sawyer-price-good-night-good-luck-goodbye-WAV-mastered.wav?rlkey=4cdbk2stlb2fawdhf6c97vlzk&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/7bkhye03u5ckbu9fol3kq/sawyer-price-good-night-good-luck-goodbye-WAV-mastered.wav?rlkey=4cdbk2stlb2fawdhf6c97vlzk&raw=1",
+    "videos": [],
+    "includeOnRadio": true,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
   }
 ]
