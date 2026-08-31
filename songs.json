@@ -18,11 +18,7 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "",
-      "apple": "",
-      "youtubeMusic": ""
-    }
+    "streaming": {}
   },
   {
     "id": "better_than_i_was",
@@ -43,11 +39,7 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "",
-      "apple": "",
-      "youtubeMusic": ""
-    }
+    "streaming": {}
   },
   {
     "id": "sawyer-price-burnin-gas",
@@ -68,11 +60,7 @@
     "includeOnHomepage": true,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "",
-      "apple": "",
-      "youtubeMusic": ""
-    }
+    "streaming": {}
   },
   {
     "id": "every_song_is_you",
@@ -93,11 +81,7 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "",
-      "apple": "",
-      "youtubeMusic": ""
-    }
+    "streaming": {}
   },
   {
     "id": "its_not_the_end_of_the_world",
@@ -118,11 +102,7 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "",
-      "apple": "",
-      "youtubeMusic": ""
-    }
+    "streaming": {}
   },
   {
     "id": "miles_between_mistakes",
@@ -143,11 +123,7 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "",
-      "apple": "",
-      "youtubeMusic": ""
-    }
+    "streaming": {}
   },
   {
     "id": "slow_like_sunday",
@@ -160,13 +136,13 @@
     "albumCover": "images/covers/sawyer-price-unrushed-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
-    "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-slow-like-sunday-cover.png",
+    "cover": "images/covers/sawyer-price-slow-like-sunday-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/w4p1ff2l7uxuw9dnkb4ko/sawyer-price-slow-like-sunday-mp3.mp3?rlkey=k2ul1da7j5ap1jn24iyijt74n&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/w4p1ff2l7uxuw9dnkb4ko/sawyer-price-slow-like-sunday-mp3.mp3?rlkey=k2ul1da7j5ap1jn24iyijt74n&raw=1",
     "videos": [
       {
+        "title": "Slow Like Sunday",
         "youtube": "https://youtu.be/mQ7fKSR4kCg",
-        "title": "Official Video",
         "order": 1
       }
     ],
@@ -174,11 +150,7 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "",
-      "apple": "",
-      "youtubeMusic": ""
-    }
+    "streaming": {}
   },
   {
     "id": "sawyer-price-still-my-favorite-song",
@@ -196,20 +168,16 @@
     "audioSrc": "https://www.dropbox.com/scl/fi/qg86vamj1aeogqmqt5jve/sawyer-price-still-my-favorite-song-mp3.mp3?rlkey=fbg8qdzq23x3vmqqomc3hdgww&raw=1",
     "videos": [
       {
+        "title": "Still My Favorite Song",
         "youtube": "https://youtu.be/Oc64NmV4Nko",
-        "title": "Official Video",
-        "order": 1
+        "order": 2
       }
     ],
     "includeOnRadio": true,
     "includeOnHomepage": true,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "",
-      "apple": "",
-      "youtubeMusic": ""
-    }
+    "streaming": {}
   },
   {
     "id": "sawyer-price-whats-left-of-me",
@@ -227,8 +195,8 @@
     "audioSrc": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
     "videos": [
       {
-        "youtube": "https://youtu.be/MY6Pwp78E_0",
         "title": "Official Video",
+        "youtube": "https://youtu.be/MY6Pwp78E_0",
         "order": 1
       }
     ],
@@ -236,11 +204,7 @@
     "includeOnHomepage": true,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "",
-      "apple": "",
-      "youtubeMusic": ""
-    }
+    "streaming": {}
   },
   {
     "id": "sawyer-price-wish-that-i-was-here",
@@ -261,45 +225,16 @@
     "includeOnHomepage": true,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "",
-      "apple": "",
-      "youtubeMusic": ""
-    }
+    "streaming": {}
   },
   {
-    "id": "sawyer-price-good-night-good-luck-goodbye",
+    "id": "sawyer-price-when-the-sky-turns-green",
     "num": "11",
-    "title": "Good Night, Good Luck, Goodbye",
+    "title": "When the Sky Turns Green",
     "artist": "Sawyer Price",
     "album": "Unrushed",
     "trackNumber": 11,
     "albumOrder": 11,
-    "albumCover": "images/covers/sawyer-price-unrushed-ALBUM-cover.png",
-    "type": "single",
-    "isLatest": false,
-    "cover": "images/covers/sawyer-price-good-night-good-luck-goodbye-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/7bkhye03u5ckbu9fol3kq/sawyer-price-good-night-good-luck-goodbye-WAV-mastered.wav?rlkey=4cdbk2stlb2fawdhf6c97vlzk&raw=1",
-    "audioSrc": "https://www.dropbox.com/scl/fi/7bkhye03u5ckbu9fol3kq/sawyer-price-good-night-good-luck-goodbye-WAV-mastered.wav?rlkey=4cdbk2stlb2fawdhf6c97vlzk&raw=1",
-    "videos": [],
-    "includeOnRadio": true,
-    "includeOnHomepage": true,
-    "explicit": false,
-    "tags": [],
-    "streaming": {
-      "spotify": "",
-      "apple": "",
-      "youtubeMusic": ""
-    }
-  },
-  {
-    "id": "sawyer-price-when-the-sky-turns-green",
-    "num": "12",
-    "title": "When the Sky Turns Green",
-    "artist": "Sawyer Price",
-    "album": "Unrushed",
-    "trackNumber": 12,
-    "albumOrder": 12,
     "albumCover": "images/covers/sawyer-price-unrushed-ALBUM-cover.png",
     "type": "single",
     "isLatest": true,

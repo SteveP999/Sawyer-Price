@@ -2,7 +2,7 @@
   "artist": "Sawyer Price",
   "latestUrl": "latest.json",
   "featuredTrack": {
-    "title": "When The Sky Turns Green",
+    "title": "When the Sky Turns Green",
     "artist": "Sawyer Price",
     "album": "Unrushed",
     "cover": "images/covers/sawyer-price-when-the-sky-turns-green-cover.png",
@@ -63,11 +63,11 @@
       "artist": "Sawyer Price",
       "album": "Unrushed",
       "cover": "images/covers/sawyer-price-slow-like-sunday-cover.png",
-      "audioSrc": "https://www.dropbox.com/scl/fi/bitpjaaarrwfnd0vmunzw/Slow-Like-Sunday-v01-Mastered-mp3.mp3?rlkey=exmyeq79diwehdpa9ki8r4qx2&raw=1",
+      "audioSrc": "https://www.dropbox.com/scl/fi/w4p1ff2l7uxuw9dnkb4ko/sawyer-price-slow-like-sunday-mp3.mp3?rlkey=k2ul1da7j5ap1jn24iyijt74n&raw=1",
       "videos": [
         {
+          "title": "Slow Like Sunday",
           "youtube": "https://youtu.be/mQ7fKSR4kCg",
-          "title": "Official Video",
           "order": 1
         }
       ]
@@ -80,9 +80,9 @@
       "audioSrc": "https://www.dropbox.com/scl/fi/qg86vamj1aeogqmqt5jve/sawyer-price-still-my-favorite-song-mp3.mp3?rlkey=fbg8qdzq23x3vmqqomc3hdgww&raw=1",
       "videos": [
         {
+          "title": "Still My Favorite Song",
           "youtube": "https://youtu.be/Oc64NmV4Nko",
-          "title": "Official Video",
-          "order": 1
+          "order": 2
         }
       ]
     },
@@ -94,8 +94,8 @@
       "audioSrc": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
       "videos": [
         {
-          "youtube": "https://youtu.be/MY6Pwp78E_0",
           "title": "Official Video",
+          "youtube": "https://youtu.be/MY6Pwp78E_0",
           "order": 1
         }
       ]
@@ -109,15 +109,7 @@
       "videos": []
     },
     {
-      "title": "Good Night, Good Luck, Goodbye",
-      "artist": "Sawyer Price",
-      "album": "Unrushed",
-      "cover": "images/covers/sawyer-price-good-night-good-luck-goodbye-cover.png",
-      "audioSrc": "https://www.dropbox.com/scl/fi/7bkhye03u5ckbu9fol3kq/sawyer-price-good-night-good-luck-goodbye-WAV-mastered.wav?rlkey=4cdbk2stlb2fawdhf6c97vlzk&raw=1",
-      "videos": []
-    },
-    {
-      "title": "When The Sky Turns Green",
+      "title": "When the Sky Turns Green",
       "artist": "Sawyer Price",
       "album": "Unrushed",
       "cover": "images/covers/sawyer-price-when-the-sky-turns-green-cover.png",
