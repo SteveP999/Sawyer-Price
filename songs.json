@@ -295,7 +295,7 @@
   {
     "id": "sawyer-price-when-the-sky-turns-green",
     "num": "12",
-    "title": "When The Sky Turns Green",
+    "title": "When the Sky Turns Green",
     "artist": "Sawyer Price",
     "album": "Unrushed",
     "trackNumber": 12,
@@ -311,10 +311,6 @@
     "includeOnHomepage": true,
     "explicit": false,
     "tags": [],
-    "streaming": {
-      "spotify": "",
-      "apple": "",
-      "youtubeMusic": ""
-    }
+    "streaming": {}
   }
 ]
