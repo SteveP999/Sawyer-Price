@@ -1,17 +1,11 @@
 {
-  "title": "What's Left Of Me",
+  "title": "When The Sky Turns Green",
   "artist": "Sawyer Price",
   "album": "Unrushed",
   "type": "Latest Single",
-  "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-whats-left-of-me-cover.png",
-  "image": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-whats-left-of-me-cover.png",
-  "audio": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
-  "audioSrc": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
-  "videos": [
-    {
-      "title": "Official Video",
-      "youtube": "https://youtu.be/MY6Pwp78E_0",
-      "order": 1
-    }
-  ]
+  "cover": "images/covers/sawyer-price-when-the-sky-turns-green-cover.png",
+  "image": "images/covers/sawyer-price-when-the-sky-turns-green-cover.png",
+  "audio": "https://www.dropbox.com/scl/fi/cpv6qk8ttndthsbe6z1ew/sawyer-price-when-the-sky-turns-green-MP3-mastered.mp3?rlkey=p49n67unhog3nvvhf181u29j3&raw=1",
+  "audioSrc": "https://www.dropbox.com/scl/fi/cpv6qk8ttndthsbe6z1ew/sawyer-price-when-the-sky-turns-green-MP3-mastered.mp3?rlkey=p49n67unhog3nvvhf181u29j3&raw=1",
+  "videos": []
 }

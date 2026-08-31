@@ -2,25 +2,19 @@
   "artist": "Sawyer Price",
   "latestUrl": "latest.json",
   "featuredTrack": {
-    "title": "What's Left Of Me",
+    "title": "When The Sky Turns Green",
     "artist": "Sawyer Price",
     "album": "Unrushed",
-    "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-whats-left-of-me-cover.png",
-    "audioSrc": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
-    "videos": [
-      {
-        "title": "Official Video",
-        "youtube": "https://youtu.be/MY6Pwp78E_0",
-        "order": 1
-      }
-    ]
+    "cover": "images/covers/sawyer-price-when-the-sky-turns-green-cover.png",
+    "audioSrc": "https://www.dropbox.com/scl/fi/cpv6qk8ttndthsbe6z1ew/sawyer-price-when-the-sky-turns-green-MP3-mastered.mp3?rlkey=p49n67unhog3nvvhf181u29j3&raw=1",
+    "videos": []
   },
   "tracks": [
     {
       "title": "All My Life",
       "artist": "Sawyer Price",
       "album": "Unrushed",
-      "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-all-my-life-cover.png",
+      "cover": "images/covers/sawyer-price-all-my-life-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/2bme49g8ftejf9e3recpn/Sawyer-Price-All-My-Life-Mastered-MP3.mp3?rlkey=k1ob4d11k6j9lw7axx42mwaz7&raw=1",
       "videos": []
     },
@@ -28,7 +22,7 @@
       "title": "Better Than I Was",
       "artist": "Sawyer Price",
       "album": "Unrushed",
-      "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-better-than-i-was-cover.png",
+      "cover": "images/covers/sawyer-price-better-than-i-was-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/fk5xta94xxst5pvy3p2vu/sawyer-price-better-than-i-was-mp3.mp3?rlkey=8djl84bq7ostjo6styngxdjph&raw=1",
       "videos": []
     },
@@ -36,7 +30,7 @@
       "title": "Burnin' Gas",
       "artist": "Sawyer Price",
       "album": "Unrushed",
-      "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-burnin-gas-cover.png",
+      "cover": "images/covers/sawyer-price-burnin-gas-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/4fx72e3509ucibl04wnm5/sawyer-price-burnin-gas-MP3.mp3?rlkey=k0llb4t23e4hlei6gafmk57xk&raw=1",
       "videos": []
     },
@@ -44,7 +38,7 @@
       "title": "Every Song is You",
       "artist": "Sawyer Price",
       "album": "Unrushed",
-      "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-every-song-is-you-cover.png",
+      "cover": "images/covers/sawyer-price-every-song-is-you-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/emwh6p45i8l2fydaz0o8c/V3-Every-Song-Is-You-Mastered-MP3-411.mp3?rlkey=17b87sw5gzelujbblmm99euay&raw=1",
       "videos": []
     },
@@ -52,7 +46,7 @@
       "title": "It's Not the End of the World",
       "artist": "Sawyer Price",
       "album": "Unrushed",
-      "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-its-not-the-end-of-the-world-cover.png",
+      "cover": "images/covers/sawyer-price-its-not-the-end-of-the-world-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/9dmyy1dgdahz0br6pkz0x/It-s-Not-the-End-of-the-World-Mastered-MP3.mp3?rlkey=zyg5ujza84d2udn1wfrbpwoe8&raw=1",
       "videos": []
     },
@@ -60,7 +54,7 @@
       "title": "Miles Between Mistakes",
       "artist": "Sawyer Price",
       "album": "Unrushed",
-      "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-miles-between-mistakes-cover.png",
+      "cover": "images/covers/sawyer-price-miles-between-mistakes-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/hikevhxn35l202bvyr9h4/Miles-Between-Mistakes-Mastered-MP3.mp3?rlkey=ep2g8nkmr5xn115b6sdi4p0cb&raw=1",
       "videos": []
     },
@@ -68,12 +62,12 @@
       "title": "Slow Like Sunday",
       "artist": "Sawyer Price",
       "album": "Unrushed",
-      "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-slow-like-sunday-cover.png",
+      "cover": "images/covers/sawyer-price-slow-like-sunday-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/bitpjaaarrwfnd0vmunzw/Slow-Like-Sunday-v01-Mastered-mp3.mp3?rlkey=exmyeq79diwehdpa9ki8r4qx2&raw=1",
       "videos": [
         {
-          "title": "Slow Like Sunday",
           "youtube": "https://youtu.be/mQ7fKSR4kCg",
+          "title": "Official Video",
           "order": 1
         }
       ]
@@ -82,13 +76,13 @@
       "title": "Still My Favorite Song",
       "artist": "Sawyer Price",
       "album": "Unrushed",
-      "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-still-my-favorite-song-cover.png",
+      "cover": "images/covers/sawyer-price-still-my-favorite-song-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/qg86vamj1aeogqmqt5jve/sawyer-price-still-my-favorite-song-mp3.mp3?rlkey=fbg8qdzq23x3vmqqomc3hdgww&raw=1",
       "videos": [
         {
-          "title": "Still My Favorite Song",
           "youtube": "https://youtu.be/Oc64NmV4Nko",
-          "order": 2
+          "title": "Official Video",
+          "order": 1
         }
       ]
     },
@@ -96,12 +90,12 @@
       "title": "What's Left Of Me",
       "artist": "Sawyer Price",
       "album": "Unrushed",
-      "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-whats-left-of-me-cover.png",
+      "cover": "images/covers/sawyer-price-whats-left-of-me-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
       "videos": [
         {
-          "title": "Official Video",
           "youtube": "https://youtu.be/MY6Pwp78E_0",
+          "title": "Official Video",
           "order": 1
         }
       ]
@@ -110,8 +104,24 @@
       "title": "Wish That I Was Here",
       "artist": "Sawyer Price",
       "album": "Unrushed",
-      "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-wish-that-i-was-here-cover.png",
+      "cover": "images/covers/sawyer-price-wish-that-i-was-here-cover.png",
       "audioSrc": "https://www.dropbox.com/scl/fi/omwmauhlbbfrzqzagju9c/sawyer-price-wish-that-i-was-here-mp3.mp3?rlkey=sfyryj05qt7a4k2fa7s87ix4x&raw=1",
+      "videos": []
+    },
+    {
+      "title": "Good Night, Good Luck, Goodbye",
+      "artist": "Sawyer Price",
+      "album": "Unrushed",
+      "cover": "images/covers/sawyer-price-good-night-good-luck-goodbye-cover.png",
+      "audioSrc": "https://www.dropbox.com/scl/fi/7bkhye03u5ckbu9fol3kq/sawyer-price-good-night-good-luck-goodbye-WAV-mastered.wav?rlkey=4cdbk2stlb2fawdhf6c97vlzk&raw=1",
+      "videos": []
+    },
+    {
+      "title": "When The Sky Turns Green",
+      "artist": "Sawyer Price",
+      "album": "Unrushed",
+      "cover": "images/covers/sawyer-price-when-the-sky-turns-green-cover.png",
+      "audioSrc": "https://www.dropbox.com/scl/fi/cpv6qk8ttndthsbe6z1ew/sawyer-price-when-the-sky-turns-green-MP3-mastered.mp3?rlkey=p49n67unhog3nvvhf181u29j3&raw=1",
       "videos": []
     }
   ]
