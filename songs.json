@@ -221,14 +221,14 @@
     "albumOrder": 9,
     "albumCover": "images/covers/sawyer-price-unrushed-ALBUM-cover.png",
     "type": "single",
-    "isLatest": false,
+    "isLatest": true,
     "cover": "images/covers/sawyer-price-whats-left-of-me-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
     "videos": [
       {
-        "title": "Official Video",
         "youtube": "https://youtu.be/MY6Pwp78E_0",
+        "title": "Official Video",
         "order": 1
       }
     ],
@@ -236,7 +236,11 @@
     "includeOnHomepage": true,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "sawyer-price-wish-that-i-was-here",
@@ -254,7 +258,7 @@
     "audioSrc": "https://www.dropbox.com/scl/fi/omwmauhlbbfrzqzagju9c/sawyer-price-wish-that-i-was-here-mp3.mp3?rlkey=sfyryj05qt7a4k2fa7s87ix4x&raw=1",
     "videos": [],
     "includeOnRadio": true,
-    "includeOnHomepage": true,
+    "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
     "streaming": {}
@@ -269,13 +273,13 @@
     "albumOrder": 11,
     "albumCover": "images/covers/sawyer-price-unrushed-ALBUM-cover.png",
     "type": "single",
-    "isLatest": true,
+    "isLatest": false,
     "cover": "images/covers/sawyer-price-good-night-good-luck-goodbye-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/zmxza4bjulzyydw4elgeb/saywer-price-good-night-good-luck-goodbye-MP3-mastered.mp3?rlkey=hvqlg7a7070da59ubpt02k9ap&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/zmxza4bjulzyydw4elgeb/saywer-price-good-night-good-luck-goodbye-MP3-mastered.mp3?rlkey=hvqlg7a7070da59ubpt02k9ap&raw=1",
     "videos": [],
     "includeOnRadio": true,
-    "includeOnHomepage": true,
+    "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
     "streaming": {}
@@ -296,7 +300,7 @@
     "audioSrc": "https://www.dropbox.com/scl/fi/cpv6qk8ttndthsbe6z1ew/sawyer-price-when-the-sky-turns-green-MP3-mastered.mp3?rlkey=p49n67unhog3nvvhf181u29j3&raw=1",
     "videos": [],
     "includeOnRadio": true,
-    "includeOnHomepage": true,
+    "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
     "streaming": {}
