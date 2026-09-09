@@ -165,8 +165,8 @@
     "audioSrc": "https://www.dropbox.com/scl/fi/w4p1ff2l7uxuw9dnkb4ko/sawyer-price-slow-like-sunday-mp3.mp3?rlkey=k2ul1da7j5ap1jn24iyijt74n&raw=1",
     "videos": [
       {
-        "title": "Slow Like Sunday",
         "youtube": "https://youtu.be/mQ7fKSR4kCg",
+        "title": "Official Video",
         "order": 1
       }
     ],
@@ -174,7 +174,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "sawyer-price-still-my-favorite-song",
